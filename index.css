@@ -1,65 +1,57 @@
 *{
-    font-family: 'Noto Sans','Liberation Sans';
-    font-size: larger;
-    font-weight: 550;
-    /* padding: 0; */
-    /* margin: 0; */
+    display: flexbox;
+    padding: 0;
+    margin: 0;
 }
-.main{
+body{
+    min-height: 150vh;
     display: block;
-    width: 15rem;
-    border: 2px solid #000;
-    place-content: center;
-    align-items: center;
     padding: 10px;
-    box-shadow: 5px 2px 2px 0px rgb(-10 0  0 );
-    border-radius: 10px;
 }
-.screen{
-    width: 15rem;
-    height: 3rem;
-    border: 2px solid #000;
-    border-radius: 10px;
-    padding-bottom: 1rem;
-}
-.buttons{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+.caLc{
+    background-color: #fff;
     place-content: center;
-    place-items: center;
-    padding-top: 1rem;
-    gap: 4px;
-    padding-bottom: 0.5rem;
+    align-items: center;
+    justify-content: center;
 }
-.buttons label{
-    width: 80px;
-    padding-right: 5px;
-    padding: 2px 1px 2px 5px;
+form{
+    border: 1px solid #ccc;
+    background-color: #6c757d;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    max-width: 28rem;
+    display: inline-block;
+    padding: 1rem;
+}
+.input--text{
+    width: 99%;
+    height: 3.5rem;
+    padding-top: 1rem;
+    background-color: #fff;
     border: 1px solid #000;
-    border-radius: 5px;
-    background-color: #ccc;
-    padding: 5px;
-}
-.red{
-    background-color: #dc3545!important;
-}
-.equal{
-    width: 15rem;
+    padding-bottom: 1rem;
     align-items: center;
-    place-content: center;
-    place-items: center;
-    border: 2px solid #000;
-    padding-top: 1rem;
-    gap: 1rem;
+    justify-content: center;
     border-radius: 10px;
-    background-color: #dc3545!important;
 
 }
-.equal .equals{
-    align-items: center;
-    place-content: center;
-    place-items: center;
-    padding: 130px;
-    font-size: 2.5rem;
+.calc .button{
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    padding: 10px;
+}
+button{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+.height--add{
+   width: 10rem;
+}
+.red--color{
+    background-color: #dc3545 !important;
 }
